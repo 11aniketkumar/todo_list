@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+#container {
+    width: 60%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#new_task {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+#new_task label {
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}
+
+#new_task input {
+    border: none;
+    background-color: rgb(227, 230, 233);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#add_task {
+    display: block;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#add_task:hover {
+    background-color: rgb(14, 187, 14);
+}
+
+#todo {
+    border-radius: 10px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+#task_header {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+
+.task {
+    display: flex;
+    background-color: rgb(223, 230, 230);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.task span {
+    display: block;
+    width: 22%;
+    margin: 2px;
+}
+
+.task span:first-child {
+    width: 9%;
+}
+
+.task span:last-child {
+    width: 25%;
+}
+
+.task button {
+    background-color: red;
+    padding: 5px;
+    color: white;
+    margin: 0px 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+.task button:hover {
+    background-color: rgb(133, 4, 4);
+}
+
+.task button:first-child {
+    background-color: green;
+}
+
+.task button:first-child:hover {
+    background-color: rgb(27, 209, 27);
+}
+
+.task button:nth-child(3) {
+    display: inline-block;
+    background-color: blue;
+    border-radius: 5px 0px 0px 5px;
+    width: 30px;
+    margin: 0px;
+    margin-left: 3px;
+}
+
+.task button:nth-child(3):hover {
+    background-color: rgb(34, 34, 235);
+}
+
+.task button:last-child {
+    display: inline-block;
+    background-color: blue;
+    border-radius: 0px 5px 5px 0px;
+    width: 30px;
+    margin: 0px;
+}
+
+.task button:last-child:hover {
+    background-color: rgb(34, 34, 235);
+}
+
+
+
+
+
